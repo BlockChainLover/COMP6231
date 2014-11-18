@@ -6,6 +6,7 @@ package com.Student.Client;
 /**
  * @author Kunwar
  *
+ * data structure used for STUDENT
  */
 import java.io.Serializable;
 
