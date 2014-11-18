@@ -1,0 +1,10 @@
+module ServerImplementaiton {
+	interface ServerIMpl{
+		string createAccount(in string username, in string password, in string firstname, in string lastname, in string phonenumber, in string email, in string educationalinstitute);
+		string reserveBook(in string username, in string password, in string bookname, in string authorname);
+		string getNonreturners(in string AdminUsername, in string AdminPassword, in string bookname, in string authorName);
+		string reserveInterLibrary(in string username, in string password, in string bookname, in string authorname);
+		string exit();
+		string  setDuration(in string username, in string bookname, in string limit);
+	};
+};
